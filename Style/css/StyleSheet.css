@@ -1,0 +1,43 @@
+﻿
+ .ui-progressbar {
+  position: relative;  
+  height: 1.5625rem;  
+  border: 0.1px solid ;
+ -webkit-border-radius: 1000px;
+  border-radius: 1000px;
+  background:#f6f6f6;     
+  }
+  
+  .ui-progressbar-value 
+  {  -webkit-transition: .2s;
+       -moz-transition: .2s;
+        -ms-transition: .2s;
+         -o-transition: .2s;
+            transition: .2s;
+      background:#43ac6a;
+      padding: 0.125rem;
+
+  }
+  .progress-label{
+    position:absolute;
+    left: 50%;
+    top: 5px;
+    font-family:Lato;
+    font-size:15px;         
+   }
+
+    
+   #bar .ui-progressbar-value
+   {
+       background:#000;      
+   }
+  
+    .progress-label2{
+    position:absolute;
+    left: 50%;
+    top: 5px;
+    font-family:Lato;
+    font-size:15px;  
+    color:White;      
+   }
+   
